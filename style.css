@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(255, 0, 191);
+}
+.container {
+    border: 1px solid rgb(255, 0, 195);
+    width: 400px;
+    height: 500px;
+    margin-top: 50px;
+    display: grid;
+	grid-template-columns: repeat(3, 200px);
+	column-gap: 10px;
+  	row-gap: 10px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 0px 30px rgb(247, 0, 255),
+                0px 0px 40px rgb(255, 0, 191),
+                0px 0px 50px rgb(255, 0, 191),
+                inset 0px 0px 20px rgb(26, 5, 19);
+    background-color: rgb(255, 0, 191);
+    border-radius: 20px;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+	column-gap: 10px;
+  	row-gap: 10px;
+}
+.profil {
+    border-radius: 50%;
+    border: 5px solid white;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+	column-gap: 10px;
+  	row-gap: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-color: rgb(255, 141, 238);
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 140px;
+}
+img {
+    width: 240px;
+    height: 200px;
+    margin-top: -40px;
+    margin-left: -110px;
+}
+.biru {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(30, 255, 0);
+    border-radius: 100px;
+    position: absolute;
+    margin-left: 215px;
+    margin-top: 15px;
+}
+.intro {
+    display: grid;
+    position: absolute;
+    margin-top: 48px;
+}
+.heading {
+    font-size: 1.5rem;
+    font-family: century;
+}
+p {
+    margin-top: -5px;
+}
+.ikuti {
+    display: flex;
+    position: relative;
+    /* border: 3px solid black; */
+    margin-top: 120px;
+    margin-left: -70px;
+}
+button {
+    background-color: black;
+    color: white;
+    margin-left: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+}
+h6 {
+    color: transparent;
+}
+
+.box {
+    display: inline-block;
+    position: absolute;
+    margin-top: 50%;
+}
+.menu {
+    width: 250px;
+    height: 30px;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 30px rgb(247, 0, 255),
+                0px 0px 40px rgb(255, 0, 191),
+                0px 0px 50px rgb(255, 0, 191),
+                inset 0px 0px 10px rgb(26, 5, 19);
+    background-color: rgb(255, 0, 191);
+}
+.menu h4 {
+    margin-left: 10px;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    position: absolute;
+    margin-top: 270px;
+    width: 97%;
+    margin-left: -5px;
+}
+
+
