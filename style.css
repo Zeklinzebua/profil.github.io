@@ -129,8 +129,14 @@ h6 {
 /* responsive */
 @media (max-width: 600px) {
     .container {
-        margin-left: 10px;
-        margin: 85px ;
+        width: 350px;
+        height: 450px;
+        margin-left: 50px;
+        margin: 50% auto;
+        position: relative;
+    }
+    .footer {
+        margin-top: 225px;
     }
 }
 
