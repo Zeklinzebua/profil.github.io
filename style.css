@@ -41,12 +41,14 @@ body {
     margin-left: 140px;
 }
 img {
+    display: grid;
     width: 240px;
     height: 200px;
     margin-top: -40px;
     margin-left: -110px;
 }
 .biru {
+    display: grid;
     width: 20px;
     height: 20px;
     background-color: rgb(30, 255, 0);
@@ -75,6 +77,7 @@ p {
     margin-left: -70px;
 }
 button {
+    display: grid;
     background-color: black;
     color: white;
     margin-left: -15px;
@@ -83,6 +86,7 @@ button {
     font-weight: bold;
 }
 h6 {
+    display: grid;
     color: transparent;
 }
 
@@ -92,6 +96,7 @@ h6 {
     margin-top: 50%;
 }
 .menu {
+    display: grid;
     width: 250px;
     height: 30px;
     /* border: 1px solid white; */
@@ -114,10 +119,18 @@ h6 {
     align-items: center;
 }
 .footer {
+    display: grid;
     position: absolute;
     margin-top: 270px;
     width: 97%;
     margin-left: -5px;
 }
 
+/* responsive */
+@media (max-width: 600px) {
+    .container {
+        margin-left: 10px;
+        margin: 85px ;
+    }
+}
 
